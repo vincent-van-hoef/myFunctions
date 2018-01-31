@@ -3,7 +3,7 @@ Title: Collection of custom R functions
 Version: 0.0.0.9000
 Authors@R: person("Vincent", "van Hoef", email = "vvanhoef@hotmal.com", role = c("aut", "cre"))
 Description: This package stores custom made functions so they can be reused easily.
-Depends: R (>= 3.4.3), biomaRt
+Depends: R (>= 3.4.3), biomaRt, AnnotationDbi, org.Hs.eg.db, org.Mm.eg.db
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
