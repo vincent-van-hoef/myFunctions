@@ -5,7 +5,7 @@
 #' @param type Format of converted rownames: e.g. "SYMBOL" or "ENTREZID"
 #' @param keys Present format of rownames: e.g. "SYMBOL" or "ENTREZID"
 #' @param db Annotation database: e.g. "org.Hs.eg.db" or "org.Mm.eg.db"
-#' @examples M1entrez <- getMatrixWithSelectedIds(M1symb, type="ENTREZID", keys="SYMBOL", db = "org.Mm.eg.db")
+#' @examples M1entrez <- getMatrixWithSelectedIds(M1symb, type="ENTREZID", keys="SYMBOL", db = org.Mm.eg.db)
 #' @export
 getMatrixWithSelectedIds <- function(df, type, keys, db){
 geneSymbols 	<- mapIds(db, keys=rownames(df), column=type, keytype=keys, multiVals="first")
