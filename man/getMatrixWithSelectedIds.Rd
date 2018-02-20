@@ -19,5 +19,5 @@ getMatrixWithSelectedIds(df, type, keys, db)
 This function can take any of the columns(org.Hs.eg.db) as type and keys as long as the row names are in the format of the keys argument
 }
 \examples{
-M1entrez <- getMatrixWithSelectedIds(M1symb, type="ENTREZID", keys="SYMBOL", db = "org.Mm.eg.db")
+M1entrez <- getMatrixWithSelectedIds(M1symb, type="ENTREZID", keys="SYMBOL", db = org.Mm.eg.db)
 }
