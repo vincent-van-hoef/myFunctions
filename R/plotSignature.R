@@ -6,7 +6,7 @@
 #' @param xlab Label of the ecdf plot x-axis
 #' @param xlim Limits of the x-axis of the plot
 #' @export
-function(x, effCol, signatureList, xlab, xlim){
+plotSignature <- function(x, effCol, signatureList, xlab, xlim){
     all <- rownames(x)
     for(signature in 1:length(signatureList)){
         signatureName <- names(signatureList)[signature]
