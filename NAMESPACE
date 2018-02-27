@@ -3,4 +3,5 @@
 export(convertHumanGeneList)
 export(convertMouseGeneList)
 export(getMatrixWithSelectedIds)
+export(listToAbsPres)
 export(volcanoplot)
