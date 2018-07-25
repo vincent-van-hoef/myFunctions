@@ -2,7 +2,7 @@
 
 GSEA_JAR=~/projects/myFunctions/GSEA_test/gsea-3.0.jar
 RNKPATTERN=allCombo.rnk
-GMT=~/projects/myFunctions/GSEA_test/MOUSE_GO_bp_no_GO_iea_symbol.gmt.txt
+GMT=~/DB/genesets/MOUSE_GO_bp_no_GO_iea_symbol.gmt.txt
 MAX=500
 MIN=10
 OUTDIR=results
